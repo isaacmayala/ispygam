@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>I Spy Game - Cape Town</title>
+</head>
+<body>
+    <h1>I Spy: Cape Town Adventure</h1>
+    <p class="instructions">Find all the landmarks and features in this beautiful view of Cape Town, South Africa. Click on them to mark them off your list!</p>
+    
+    <div class="game-container">
+        <div class="image-container">
+            <img id="game-image" src="https://i.pinimg.com/736x/04/bf/77/04bf7757a420105a0fb3f048d109920f.jpg" usemap="#image-map" alt="Aerial view of Cape Town">
+            <map name="image-map" id="image-map">
+                <!-- Areas will be defined in JavaScript -->
+            </map>
+        </div>
+        
+        <div class="items-list">
+            <h3>Find These Items:</h3>
+            <ul id="items">
+                <!-- Items will be added via JavaScript -->
+            </ul>
+        </div>
+        
+        <div class="message" id="message"></div>
+        <button id="play-again" onclick="replay()">Play Again</button>
+    </div>
+  <!-- Link to JavaScript file -->
+  <script src="js/script.js"></script>
+</body>
+</html>
