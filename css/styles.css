@@ -1,0 +1,96 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e6f2ff;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+        
+        .instructions {
+            font-family: 'Verdana', sans-serif;
+            margin-bottom: 20px;
+            color: #006633;
+        }
+        
+        .game-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .image-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #0099cc;
+            border-radius: 10px;
+        }
+        
+        .items-list {
+            display: inline-block;
+            text-align: left;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .items-list h3 {
+            margin-top: 0;
+            color: #0066cc;
+        }
+        
+        .items-list ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .items-list li {
+            margin: 10px 0;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+        
+        .found {
+            text-decoration: line-through;
+            color: #999;
+        }
+        
+        .message {
+            margin: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: #0066cc;
+            min-height: 30px;
+        }
+        
+        button {
+            background-color: #0099cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: none;
+        }
+        
+        button:hover {
+            background-color: #0066cc;
+        }
+        
+        area {
+            cursor: pointer;
+        }
